@@ -2,7 +2,7 @@
 "use strict";
 
 const outputEnglish = () => {
-	return "What;s going on, homie";
+	return "What's going on, homie";
 };
 module.exports = outputEnglish;
 },{}],2:[function(require,module,exports){
@@ -21,7 +21,7 @@ const italian = require('./italian');
 const english = require('./english');
 
 const greetingGenerator = {
-	french, spanish, italian
+	french, spanish, italian, english
 };
 
 module.exports = greetingGenerator;

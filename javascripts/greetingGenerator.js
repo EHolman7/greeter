@@ -6,7 +6,7 @@ const italian = require('./italian');
 const english = require('./english');
 
 const greetingGenerator = {
-	french, spanish, italian
+	french, spanish, italian, english
 };
 
 module.exports = greetingGenerator;
